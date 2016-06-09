@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>Xtern-roster</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"/>
+   </head>
+   <body>
+     <h1>Xtern-roster</h1>
+     <form id="new_person">
+      <input type="text"
+             name="personName"
+             placeholder="Enter person name"
+             required>
+      <button type="submit">Create</button>
+    </form>
+    <ul id="personList">
+      <li class="template">
+        <span class="person-name"><a href="#"></a></span>
+        (<a href="#" class="delete">delete</a>)
+      </li>
+    </ul>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"></script>
+     <script src="js/get-person.js"></script>
+     <script src="js/create-person.js"></script>
+     <script src="js/delete-person.js"></script>
+    <!-- <script src="js/succinct.js"></script> -->
+   </body>
+ </html>
